@@ -5,9 +5,9 @@
 
 Console.Clear();
 Console.WriteLine ("Считаем сумму цифр в введённом вами целом числе");
-Console.Write ("Введите ваше число (не более 9 знаков)=> ");
-int number = Math.Abs(Int32.Parse(Console.ReadLine()));
-int result =0;
+Console.Write ("Введите ваше число (не более 18 знаков)=> ");
+long number = Math.Abs(Int64.Parse(Console.ReadLine()));
+long result =0;
 
 while (number>=1) {
     result +=number%10;
